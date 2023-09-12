@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: grid;
+  height: 100vh;
+  place-items: center;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.main_div {
+  width: 350px;
+  background: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+.main_div .title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  color: #333;
+}
+form {
+  margin-top: 30px;
+}
+form .input_box {
+  height: 60px;
+  width: 100%;
+  position: relative;
+  margin-top: 15px;
+
+}
+.input_box input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: 1px solid lightgrey;
+  border-radius: 30px;
+  padding-left: 48px;
+  font-size: 18px;
+  transition: all 0.3s ease;
+  background:#f2f2f2
+}
+.input_box input:focus {
+  border-color: #be2edd;
+}
+.input_box .icon {
+  position: absolute;
+  top: 50%;
+  left: 22px;
+  transform: translateY(-50%);
+  color: grey;
+  opacity: 0.5;
+}
+form .option_div {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.option_div .check_box {
+  display: flex;
+  align-items: center;
+}
+.check_box input {
+  display: flex;
+  align-items: center;
+  height: 15px;
+  background: linear-gradient(-135deg, #c850c0, #4158d0);
+  width: 15px;
+}
+.check_box label {
+  margin-left: 8px;
+  font-size: 16px;
+  color: #333;
+}
+.option_div .forget_div a {
+  font-size: 16px;
+  color: #be2edd;
+}
+.button input {
+  margin-top: 20px;
+  padding-left: 0;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.button input:hover {
+  background: linear-gradient(-135deg, #c850c0, #4158d0);
+}
+form .sign_up {
+  text-align: center;
+  margin-top: 35px;
+}
+.sign_up a {
+  color: #be2edd;
+}
+form a {
+  text-decoration: none;
+}
+form a:hover {
+  text-decoration: underline;
+}
